@@ -1,14 +1,27 @@
 {
-  "name": "my-app",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "ejs": "latest",
-    "aws-sdk": "latest",
-    "express": "latest",
-    "body-parser": "latest"
-  },
+  "name": "Site Personnel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/server.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franckforet/sitePerso.git"
+  },
+  "author": "Franck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mortash/IronMadChess/issues"
+  },
+  "homepage": "https://github.com/franckforet/sitePerso#README",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "pg": "6.1.2"
   }
 }
